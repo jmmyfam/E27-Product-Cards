@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 body {
   font-family: "Lexend", sans-serif;
+  background-color: antiquewhite;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -12,7 +20,7 @@ body {
   border: 1px solid lightblue;
   margin: 4px;
   padding: 5px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgb(255, 255, 255);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
@@ -26,6 +34,7 @@ img {
 }
 
 .card-head {
+  font-family: Caveat;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
